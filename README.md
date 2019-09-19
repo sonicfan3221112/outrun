@@ -19,6 +19,7 @@ Notable:
   - Functional shop
   - Character/Chao equipping
   - Character leveling and progression
+  - roulette wheel
 
 Functional:
   - Android and iOS support
