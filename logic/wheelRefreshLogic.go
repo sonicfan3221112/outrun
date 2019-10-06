@@ -10,7 +10,7 @@ func WheelRefreshLogic(player netobj.Player, wheel netobj.WheelOptions) netobj.W
 	numRouletteTicket := player.PlayerState.NumRouletteTicket  // get roulette tickets
 	rouletteCount := player.RouletteInfo.RouletteCountInPeriod // get amount of times we've spun the wheel today
 	if player.RouletteInfo.GotJackpotThisPeriod {
-		wheel.NumJackpotRing = 1
+		wheel.NumJackpotRing = 53
 	}
 	wheel.NumRouletteToken = numRouletteTicket
 	wheel.NumRemainingRoulette = wheel.NumRouletteToken + consts.RouletteFreeSpins - rouletteCount // TODO: is this proper?
